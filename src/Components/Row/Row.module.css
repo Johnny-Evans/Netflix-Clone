@@ -1,0 +1,19 @@
+.RowContainer{
+    margin-left: 1.5rem;
+    margin-top: 1.3rem;
+}
+
+.RowContainer h1{
+    margin-bottom: 1rem;
+    padding-left: 0.5rem;
+}
+
+.RowContent{
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.RowContent::-webkit-scrollbar{
+    display: none;
+}

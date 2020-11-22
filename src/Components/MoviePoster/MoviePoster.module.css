@@ -1,0 +1,19 @@
+.Image{
+    height: 100px;
+    margin: 12px 14px 12px 2px;
+    object-fit: contain;
+}
+
+.Image:hover{
+    transition: all 0.5s;
+    transform: scale(1.08);
+}
+
+.Large{
+    height: 250px;
+}
+
+.Large:hover{
+    opacity: 1;
+    transform: scale(1.09);
+}

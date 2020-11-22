@@ -1,0 +1,74 @@
+.Navbar{
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: auto;
+    z-index: 2;
+}
+
+.Header{
+    position: relative;
+}
+
+.Header::after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.Navbar div {
+    margin: 0 1.2rem;
+}
+
+.HeaderContent{
+    padding: 15px;
+    display: flex;
+    max-width: 360px;
+    height: 300px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 3.5rem 0 3rem 1.8rem; 
+    color: white;
+    z-index: 2;
+}
+
+.HeaderContent div {
+    margin-top: 0.6rem;
+}
+
+.HeaderContent p {
+    line-height: 1.6;
+}
+
+.Buttons{
+    display: flex;
+}
+
+.Buttons button {
+    border-radius: 0.16rem;
+    border: none;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 0.6rem 1.6rem;
+}
+
+.Buttons button:first-child{
+    margin-right: 1.4rem;
+}
+
+.Buttons button:hover{
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.15);
+    color: whitesmoke;
+}
+
+
